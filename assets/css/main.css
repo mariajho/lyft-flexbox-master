@@ -243,20 +243,68 @@ footer {
 
 
 footer img{
-	
+	display:flex;
+	justify-content: flex-end;
+	position: relative;
+	left: 800px;
 	width: 200px;
 	height: 100px;
+	bottom: 100px;
 }
 
-.col-1{
+ .col-1{
+	display: flex;
+	flex direction: column;
+	align-items: flex-start;
+}
+
+.col-2{
+	display: flex;
+	flex direction: column;
+	align-items: flex-start;
+}
+
+.col-3{
 	display: flex;
 	flex direction: column;
 	align-items: flex-start;
 }
 
 
+.iconos {
+	
+	position: relative;
+	top: 100px;
+	width: 5px;
+	height: 5px;
+}
 
+.iconos1{
+	
+	position: relative;
+	bottom: 20px;
+	top: 100px;
+	right: 300px;
+	width: 5px;
+	height: 5px;
+}
 
+.iconos2{
+	
+	position: relative;
+	bottom: 10px;
+	top: 100px;
+	right: 600px;
+	width: 60px;
+	}
+
+.texto-final {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	position: relative;
+	left: 350px;
+}
 
 
 
